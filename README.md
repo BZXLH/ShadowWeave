@@ -14,6 +14,12 @@
 
 ## 🗂️ Dataset
 
+The experimental data for this project is hosted on the Zenodo platform. It can be accessed via the following link:
+
+APT Knowledge Graph Dataset 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17429960.svg)](https://doi.org/10.5281/zenodo.17429960)
+
 The experiments utilize two types of datasets:
 
 ### 1. Explicit Relations Dataset
