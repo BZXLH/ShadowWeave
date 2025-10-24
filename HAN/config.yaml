@@ -1,0 +1,19 @@
+data:
+  nodes_csv_path: 'ShadowWeav\Dataset\SW-CNT200\index_data\nodes.csv'
+  edges_csv_path: 'ShadowWeav\Dataset\SW-CNT200\index_data\edges.csv'
+  test_csv_path: 'ShadowWeav\Dataset\implicit relations\Indicator2TTPs_ids.csv'
+
+training:
+  num_epochs: 500
+  optimizer:
+    lr: 0.001
+    weight_decay: 0.00001
+  class_weight_power: 1
+dataset_split:
+  test_size: 0.2
+  random_state: 42
+early_stopping:
+  patience: 200
+model:
+  hidden_channels: 32
+  model_path: 'han_model.pth'
